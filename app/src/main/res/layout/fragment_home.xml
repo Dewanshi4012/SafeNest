@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/head_text_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/my_family"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/map_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_map" />
+
+    <ImageView
+        android:id="@+id/dot_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_dotsicon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
