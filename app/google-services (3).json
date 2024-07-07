@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "430775218671",
+    "project_id": "safenest",
+    "storage_bucket": "safenest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430775218671:android:531a2f1bab2986889b861a",
+        "android_client_info": {
+          "package_name": "com.example.safenest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430775218671-nn0ir4uk3t8l0uc7sglk7iv3urlni0dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safenest",
+            "certificate_hash": "54cae93366479398bb4625b3c11c72b3e35ad223"
+          }
+        },
+        {
+          "client_id": "430775218671-mk1pij58uk8psdkct74fq2basvsj0ksk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUavJAYexaCLUfPOO3h6SebtKIIVVyWFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430775218671-mk1pij58uk8psdkct74fq2basvsj0ksk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".GuardScreen">
+    android:background="@color/background" >
 
     <TextView
-        android:id="@+id/head_text"
+        android:id="@+id/head_text_guard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/security"
@@ -28,7 +27,7 @@
         app:cardBackgroundColor="@color/pink"
         app:cardCornerRadius="16dp"
         app:cardElevation="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/head_text"
+        app:layout_constraintTop_toBottomOf="@+id/head_text_guard"
         tools:layout_editor_absoluteX="32dp" />
 
     <TextView

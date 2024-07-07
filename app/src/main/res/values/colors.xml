@@ -6,4 +6,7 @@
     <color name="TopBar">#b3b5b7</color>
     <color name="pink">#f0737b</color>
     <color name="green">#63d2c8</color>
+    <color name="light_green">#C4FFF9</color>
+    <color name="lil_green">#4BD1A1</color>
+    <color name="blue">#14366E</color>
 </resources>
