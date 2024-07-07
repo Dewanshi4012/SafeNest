@@ -3,11 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DashboardFragment">
 
     <TextView
+        android:id="@+id/head_text_dashboard"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello DASHBOARD fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </FrameLayout>
