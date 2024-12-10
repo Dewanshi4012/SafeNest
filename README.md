@@ -11,6 +11,7 @@ SafeNest is a robust and user-friendly family location-sharing app designed to e
 ## Screenshots 📷
 <img src="https://github.com/user-attachments/assets/a9180993-5f54-43d2-b840-02c08a42c375" alt="Description"  width="800" />
 
+
 ##Tech Stack 🛠️
 - **Languages:** Kotlin, XML
 - **Libraries:**
